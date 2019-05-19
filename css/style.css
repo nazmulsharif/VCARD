@@ -1,0 +1,245 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: tahoma;
+}
+body{
+	background-color: #7F3846;
+
+}
+.full-box{
+	width: 900px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	height: 500px;
+	background-color: #651f2b;
+	box-shadow: 0px 0px 15px black;
+
+}
+.inner-left{
+	width:25%;
+	float: left;
+}
+.inner-left img{
+	width: 100%;
+	height: 175px;
+}
+.inner-left h1{
+	font-size: 19px;
+	background-color: #ddd;
+	text-align: center;
+	font-family: 'Righteous', cursive;
+}
+.inner-left ul{
+	margin: 0 10px 0 20px;
+	text-align: right;
+}
+.inner-left ul li{
+	border-bottom: 1px dotted blue;
+}
+.inner-left ul li a{
+	
+}
+.inner-right{
+	width: 75%;
+	float: left;
+	box-sizing: border-box;
+}
+.inner-right .tabs{
+	width: 100%;
+
+}
+.tabs ul{
+	background-color: #fff;
+
+}
+.tabs ul li{
+	display: inline-block;
+	width: 150px;
+	height: 100px;
+}
+.tabs ul li a{
+	width: 100%;
+	margin-top: 15%;
+	text-align: center;
+
+
+}
+.tabs ul li a i{
+	font-size: 40px;
+	
+}
+#about{
+	overflow: scroll;
+	height: 350px;
+}
+#about h1{
+	font-size: 30px;
+	font-family: 'Baloo Bhai', cursive;
+}
+#about h2{
+	font-size: 15px;
+	text-align: center;
+	background-color: blue;
+	color: #fff;
+	font-family: 'Righteous', cursive;
+}
+#about p{
+	font-size: 15px;
+}
+
+.grid{
+	width: 100%;
+}
+.research{
+	width: 33.3%;
+	float: left;
+}
+.grid p{
+	font-size: 15px!important;
+}
+.Design{
+	width: 33.3%;
+	float: left;
+}
+.Work{
+	width: 33.3%;
+	float: left;
+}
+#documents{
+	
+	
+}
+#documents h1{
+	background-color: blue;
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Baloo Bhai', cursive;
+}
+#documents h2{
+	font-size: 15px;
+	color: green;
+	font-family: 'Righteous', cursive;
+
+}
+#documents p{
+	font-size: 15px;
+}
+#documents a{
+
+}
+#experience{
+
+}
+#experience h1{
+	font-size: 20px;
+	background-color: blue;
+	color: #fff;
+	font-family: 'Baloo Bhai', cursive;
+}
+#experience p{
+	font-size: 15px;
+}
+#experience a{
+	text-align: center;
+}
+
+#experience img{
+	width: 150px;
+	height: 100px;
+}
+#experience a{
+	display: block;
+}
+#home h1{
+	font-size: 20px;
+	background-color: blue;
+	color: #fff;
+}
+#home input{
+	display: block;
+	width: 100%;
+	margin-top: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px 0;
+}
+textarea{
+	width: 50%;
+	margin-top: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.full-box:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+/* RESPONSIVE SITE */
+@media only screen and (min-width: 575px){
+	.full-box{
+		width: 500px;
+	}
+}
+
+@media only screen and (max-width: 899px){
+.full-box{
+	width: 576px;
+}
+.tabs ul{
+	background-color: #fff;
+
+}
+.tabs ul li{
+	display: inline-block;
+	width: 100px;
+	height: 70px;
+}
+.tabs ul li a{
+	width: 100%;
+	margin-top: 15%;
+	text-align: center;
+
+
+}
+.tabs ul li a i{
+	font-size: 30px;
+	
+}
+}
+@media only screen and (min-width: 900px){
+	.full-box{
+		width: 900px;
+	}
+	.tabs ul{
+	background-color: #fff;
+
+}
+.tabs ul li{
+	display: inline-block;
+	width: 130px;
+	height: 70px;
+}
+.tabs ul li a{
+	width: 100%;
+	margin-top: 15%;
+	text-align: center;
+
+
+}
+.tabs ul li a i{
+	font-size: 30px;
+	
+}
+}
+
+
+
+
+/* RESPONSIVE SITE */
